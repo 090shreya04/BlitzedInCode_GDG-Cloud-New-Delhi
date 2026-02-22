@@ -430,9 +430,9 @@ class CrossChannelSynthesis:
         
         # Simple conflict detection: look for contradictory keywords
         conflict_patterns = [
-            (r"must\s+([^.]+)", r"cannot\s+\1"),
+            (r"must\s+([^.]+)", r"cannot\s+([^.]+)"),
             (r"deadline.*?(\d{1,2}[/-]\d{1,2})", r"deadline.*?(\d{1,2}[/-]\d{1,2})"),
-            (r"approved\s+([^.]+)", r"rejected\s+\1"),
+            (r"approved\s+([^.]+)", r"rejected\s+([^.]+)"),
         ]
         
         for pattern_allow, pattern_deny in conflict_patterns:

@@ -1,11 +1,11 @@
 # ============================================================================
 # BRD Agent - Python Dependencies (Fast Version)
 # ============================================================================
+--extra-index-url https://download.pytorch.org/whl/cpu
 
 # --- Core Framework ---
 Flask
 flask-cors
-flask-jwt-extended
 
 # --- Frontend ---
 streamlit
@@ -18,7 +18,6 @@ google-generativeai
 openai
 groq
 langchain
-langchain-google-genai
 
 # --- NLP & Text Processing ---
 textblob
@@ -31,10 +30,8 @@ datasets
 # --- Visualization ---
 networkx
 plotly
-matplotlib
 
 # --- Utilities ---
 python-dotenv
 requests
-pydantic
 fpdf2

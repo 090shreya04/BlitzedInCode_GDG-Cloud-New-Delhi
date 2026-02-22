@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "generated_at": "2026-02-22T09:27:50.132157",
+    "version": "1.0",
+    "status": "draft"
+  },
+  "execution_summary": "No specific requirements identified from the communications.",
+  "project_overview": {
+    "topic": "Technology Project",
+    "description": "This project aims to implement the requirements extracted from cross-channel business communications (emails and meetings).",
+    "scope": {
+      "in_scope_items": 0,
+      "out_of_scope_items": 0,
+      "total_requirements": 0
+    }
+  },
+  "stakeholder_map": {
+    "stakeholders": [],
+    "relationships": [],
+    "hierarchy_detected": []
+  },
+  "requirement_traceability_matrix": [],
+  "decision_log": [],
+  "timeline": [],
+  "risk_and_conflicts": {
+    "conflicts": [],
+    "critical_count": 0,
+    "action_items": []
+  },
+  "noise_reduction_logic": "NOISE REDUCTION LOGIC:\n\nThe following types of communications were intentionally filtered out:\n1. Personal and social conversations (birthdays, lunch plans, parking)\n2. Routine notifications (newsletters, newsletters, auto-replies)\n3. Off-topic discussions (sports, weather, vacation photos)\n4. Administrative overhead (FYIs without context, forwarding chains)\n\nFiltering Criteria Applied:\n\u2022 Keyword-based filtering to identify noise patterns\n\u2022 Relevance scoring using TF-IDF similarity to requirement keywords\n\u2022 Minimum content length requirement (>50 characters)\n\u2022 Project-specific filtering (if applicable)\n\nThis approach ensures the BRD captures only genuine business requirements and \nstrategic decisions, improving actionability while maintaining traceability to \nthe original source communications.\n\nData Sources Used:\n\u2022 Enron Email Dataset (Public Domain - Corporate Communication)\n\u2022 AMI Meeting Corpus (CC BY 4.0 - Design Meeting Transcripts)\n\nTotal emails analyzed: 0\nEmails retained after filtering: 0\nTotal meetings analyzed: 0",
+  "data_sources": {
+    "emails": 0,
+    "meetings": 0,
+    "total_requirements": 0
+  },
+  "synthesis_metadata": {
+    "timestamp": "2026-02-22T09:27:50.132157",
+    "stats": {
+      "emails_loaded": 0,
+      "emails_filtered": 0,
+      "meetings_loaded": 0,
+      "requirements_extracted": 0,
+      "conflicts_detected": 0,
+      "critical_conflicts": 0
+    },
+    "synthesis_log": [
+      "[2026-02-22T09:27:45.307018] FILTER: Removed email (noise): RE: Lunch plans for Friday"
+    ]
+  }
+}
